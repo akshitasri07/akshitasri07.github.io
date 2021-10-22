@@ -83,13 +83,13 @@ body {
 .w3-text-light-grey, .w3-hover-text-light-grey:hover, .w3-text-light-gray, .w3-hover-text-light-gray:hover {
     color: #f1f1f1!important;
 }
-
 .w3-display-middle {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}.w3-display-container {
+}
+.w3-display-container {
     position: relative;
 }
 .w3-black, .w3-hover-black:hover {
@@ -116,6 +116,13 @@ body {
 }
 .w3-col.m6, .w3-half {
     width: 49.99999%;
+}
+.w3-row-padding{
+
+  display: flex;
+}
+.about-container{
+  display: flex;
 }
 header {
     /* background-color: grey; */
